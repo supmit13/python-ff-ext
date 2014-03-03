@@ -1,0 +1,55 @@
+ID: 4600026  
+Job Opening ID: 4576731  
+Title: build small python app & firefox extension  
+Job Description: Hello,
+
+I am looking for a small python web application and firefox extension.  
+
+The UI and workflows are given in the attached Visio.
+
+The project will create the software that functions in the manner shown - at a high level in the Visio diagram.
+
+The process for completion will have these stages and deliverables:
+
+
+i) database design and technical specs: written documents for the backend;
+
+AFTER APPROVAL of that documetation:
+
+ii) implementation of the project;
+
+iii) UAT (user acceptance testing);
+
+iv) delivery of HTML, CSS, and all developed code.
+
+
+If you have any questions, please let me know.
+
+Thank you,
+Eric   
+ 
+Starting On: October 10, 2009  
+My Bid: $350.00  
+Status: Interview  
+Created On:  October 6, 2009  
+Created By: supmit  
+Cover Letter: Hi,
+
+I can do this for you. I have done something similar, though not using python, but using perl. I shall provide you with a stripped up version in a short while. I cannot provide the entire source code for the work I had done, since I am bound by licensing matters. Let me know if you want to know anything more.
+
+Regards,
+Supriyo   
+ 
+Requested Interview: October 9, 2009  
+Interview Invitation: Hi Supriyo,
+
+Thanks for bidding!  I appreciated your bid and would like to get started.  I just wanted to confirm that we might do three things as part of this project - and that that does not change your scope:
+
+i)  use the django framework;
+ii) have a "kick off" call to walk through the wireframe and functionality for 1 - 2 hours over Skype to confirm functionality and deliverables.
+
+If those things seem okay, please let me know.
+
+Thanks!
+Eric  
+ 

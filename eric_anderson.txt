@@ -1,0 +1,97 @@
+Hello Supriyo, 
+
+
+
+Congratulations on winning this project! I look forward to working with you!!! 
+
+
+
+As you know, I was interested to start this project with a database design for approval before building. I captured some requirements and notes below to aid your database design.  Please let me know if you have any questions.  If so, I can set up a kick off call (no more than 1 hour) for us to discuss the wireframes and the notes and get on the same page. 
+
+
+
+Kind regards, 
+
+Eric Anderson 
+
+
+
+savewhatyoulookedat.com 
+
+
+
+
+
+COMPONENTS 
+
+
+
+a firefox extension that saves URLs to a web based user account 
+
+a small web-based Django app for users to access saved URLs 
+
+
+
+the primary objective is to build a firefox extension that allows the user to: 
+
+
+
+i) install the extension on a macintosh or PC; 
+
+ii) set up a savewhatyoulookedat.com user account; 
+
+iii) save URLs and associated data attributes/values to their account 
+
+iv) share those URLs with friends; 
+
+
+
+DATA 
+
+
+
+A user account will have four attributes: 
+
+
+
+i) id; 
+
+i) email address; 
+
+ii) password; 
+
+iii) account created timestamp (gmt); 
+
+
+
+A saved URL will have these attributes: 
+
+
+
+i) URL 
+
+ii) HTML doc and images from the URL (to prevent rot, esp @ CL); 
+
+iii) timestamp for time saved (gmt) 
+
+iv) all email addresses listed on the page; 
+
+v) user ids that have saved the URL, 
+
+vi) user ids that have “opted in” to receive more info/updates; 
+
+vii) Category (can be unique at the user level); 
+
+
+
+
+
+There will need to be a table of possible Categories as well.  You can see in the wireframes that a user can categorize the URLs that save, and then save entire Categories with friends.  These table should be initialized with these attributes: 
+
+
+
+i) id; 
+
+ii) category (initial values: apartment, house, car, vacation rental, shoes, purse, book); 
+
+iii) create date;

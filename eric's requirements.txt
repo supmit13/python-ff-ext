@@ -1,0 +1,87 @@
+Hello Supriyo,
+
+
+
+I have also created these notes on requirements, please let me know if you have any questions:
+
+
+
+savewhatyoulookedat.com
+
+hosted by: godaddy.com
+
+
+
+
+
+COMPONENTS
+
+
+
+a firefox extension that saves URLs to a web based user account
+
+a small web-based Django app for users to access saved URLs
+
+
+
+the primary objective is to build a firefox extension that allows the user to:
+
+
+
+i) install the extension on a macintosh or PC;
+
+ii) set up a savewhatyoulookedat.com user account;
+
+iii) save URLs and associated data attributes/values to their account
+
+
+
+DATA
+
+
+
+A user account will have four attributes:
+
+
+
+i) id;
+
+i) email address;
+
+ii) password;
+
+iii) account created timestamp (gmt);
+
+
+
+A saved URL will have these attributes:
+
+
+
+i) URL
+
+ii) HTML doc and images from the URL (to prevent rot, esp @ CL);
+
+iii) timestamp for time saved (gmt)
+
+iv) all email addresses listed on the page;
+
+v) user ids that have saved the URL,
+
+vi) user ids that have “opted in” to receive more info/updates;
+
+
+
+vii) Category ;
+
+
+
+There will need to be a table of possible Categories as well. You can see in the wireframes that a user can categorize the URLs that save, and then save entire Categories with friends. These table should be initialized with these attributes:
+
+
+
+i) id;
+
+ii) category (initial values: apartment, house, car, vacation rental, shoes, purse, book);
+
+iii) create date;

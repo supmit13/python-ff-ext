@@ -1,0 +1,23 @@
+Eric Anderson sent you a message on oDesk
+Eric Anderson sent you a message:
+
+Good afternoon!
+--------------------------------------------------------------------------------
+ Hi Supriyo!
+
+
+1.  Correct.  But the user will only download one small bit of functionality.  The downloaded app will add a button to the users browser next to the address bar that will allow the user to click "SAVE" to save the URL that they are looking at.  That will then cause the browser to launch a window that will allow them the add values for the bookmark.
+
+
+2.  Yes.  Very well put.
+
+
+3.  Very good questions.  One does need the ability to identify friends.  For now, the only requirement is that one of the "friends" add the other person.  That is sufficient to make them friends.  There does not need to be the ability to accept or deny.  I suspect that we will add that later - I just don't know how it should work yet.  I wanted it to be very easy, initially, while doing alpha testing.  We can optimize this part of the workflow later.  If you have any ide as after this initial build, and we have had a chance to test it out, if you have any ideas, I would love to hear them!!
+
+
+Great questions.  If you have any more, please let me know.  If you would like to have a Skype call or chat Saturday to "get on the same page", please let me know!
+
+
+Thanks!!
+
+Eric

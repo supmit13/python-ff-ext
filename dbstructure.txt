@@ -1,0 +1,58 @@
+Database Structure:
+===================
+
+The database 'urldb' will store the data necessary to work. The tables are:
++------------------------------+
+| Tables_in_urldb              |
++------------------------------+
+| auth_group                   | 
+| auth_group_permissions       | 
+| auth_message                 | 
+| auth_permission              | 
+| auth_user                    | 
+| auth_user_groups             | 
+| auth_user_user_permissions   | 
+| django_content_type          | 
+| django_session               | 
+| django_site                  | 
+| savewhatyoulookedat_category | 
+| savewhatyoulookedat_urls     | 
+| savewhatyoulookedat_users    | 
++------------------------------+ 
+
+The first 10 tables are the default tables that django creates to enable the application to work within the framework. The last three tables, namely "savewhatyoulookedat_category", "savewhatyoulookedat_urls", and "savewhatyoulookedat_users" are the ones that will store data specific to the application under consideration. The table structures for these 3 tables are as follows:
+
+savewhatyoulookedat_category:
++--------------+--------------+------+-----+---------+----------------+
+| Field        | Type         | Null | Key | Default | Extra          |
++--------------+--------------+------+-----+---------+----------------+
+| id           | int(11)      | NO   | PRI | NULL    | auto_increment |
+| categoryID   | int(11)      | NO   |     | NULL    |                |
+| categoryname | varchar(255) | NO   |     | NULL    |                |
++--------------+--------------+------+-----+---------+----------------+
+
+savewhatyoulookedat_urls:
++-------------+--------------+------+-----+---------+----------------+
+| Field       | Type         | Null | Key | Default | Extra          |
++-------------+--------------+------+-----+---------+----------------+
+| id          | int(11)      | NO   | PRI | NULL    | auto_increment |
+| userID_id   | int(11)      | NO   | MUL | NULL    |                |
+| savedURL    | varchar(255) | NO   |     | NULL    |                |
+| html        | longtext     | NO   |     | NULL    |                |
+| images      | varchar(100) | NO   |     | NULL    |                |
+| accesstime  | datetime     | NO   |     | NULL    |                |
+| categoryID  | int(11)      | NO   |     | NULL    |                |
+| recieveinfo | tinyint(1)   | NO   |     | NULL    |                |
++-------------+--------------+------+-----+---------+----------------+
+
+savewhatyoulookedat_users:
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| id         | int(11)     | NO   | PRI | NULL    | auto_increment |
+| userID     | varchar(20) | NO   |     | NULL    |                |
+| emailID    | varchar(75) | NO   |     | NULL    |                |
+| password   | varchar(20) | NO   |     | NULL    |                |
+| createtime | datetime    | NO   |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+

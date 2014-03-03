@@ -1,0 +1,13 @@
+Hello Supriyo,
+
+
+Okay - sounds good.  Let's go for detailed documentation.  Concerning set up - would you able to install the script on the host?  Hosting is currently at godaddy.com.  Here are the credentials:  swimfins / Monday001
+
+
+What happened to this part of the requirements:" I was interested to start this project with a database design for approval before building. "  Were you unable to do that?
+
+
+Thanks!
+
+Eric
+

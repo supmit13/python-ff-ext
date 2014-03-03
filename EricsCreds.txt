@@ -1,0 +1,36 @@
+HOSTNAME: https://panel.webfaction.com/message/read/25815/
+USERNAME: ericanderson
+PASSWORD: f23f3c20
+HTTPS ACCT LIST: https://panel.webfaction.com/user_/list
+
+=============================================================
+Latest Creds:
+Eric Anderson sent you a message:
+
+Good afternoon!
+--------------------------------------------------------------------------------
+username: ericssh 
+passwd: b3638293 
+Shell: /bin/bash  
+Extra groups: ericanderson
+IP: 75.125.202.115
+Hostname: panel.webfaction.com
+
+
+
+
+CREATE TABLE `savewhatyoulookedat_urls` (
+  `urlID` int(11) NOT NULL auto_increment,
+  `user_id` varchar(20) NOT NULL,
+  `savedURL` varchar(255) NOT NULL,
+  `html` longtext NOT NULL,
+  `accesstime` datetime NOT NULL,
+  `categoryID` int(11) NOT NULL,
+  `recieveinfo` tinyint(1) NOT NULL,
+  `bookmark` varchar(255) NOT NULL,
+  `sessionID` varchar(40) NOT NULL,
+  `images` longtext NOT NULL,
+  `emailID_list` text,
+  PRIMARY KEY  (`urlID`),
+  KEY `savewhatyoulookedat_urls_user_id` (`user_id`)
+) ENGINE=MyISAM
