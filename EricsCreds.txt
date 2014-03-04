@@ -1,7 +1,9 @@
+# Please note that the actual credentials in this file have been replaced by '#'.
+
 HOSTNAME: https://panel.webfaction.com/message/read/25815/
-USERNAME: ericanderson
-PASSWORD: f23f3c20
-HTTPS ACCT LIST: https://panel.webfaction.com/user_/list
+USERNAME: #############
+PASSWORD: ########
+HTTPS ACCT LIST: https://www.mywebhosting.net/user_/list
 
 =============================================================
 Latest Creds:
@@ -9,12 +11,12 @@ Eric Anderson sent you a message:
 
 Good afternoon!
 --------------------------------------------------------------------------------
-username: ericssh 
-passwd: b3638293 
+username: ######### 
+passwd: ######## 
 Shell: /bin/bash  
-Extra groups: ericanderson
-IP: 75.125.202.115
-Hostname: panel.webfaction.com
+Extra groups: ##############
+IP: xxx.xxx.xxx.xxx
+Hostname: www.mywebhosting.net
 
 
 
